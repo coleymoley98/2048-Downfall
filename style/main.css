@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #ff0000;
-  color: #fffff;
+  background: #dd0000;
+  color: #000000;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,7 +53,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #000000;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -90,7 +90,7 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "Antics"; }
 
 .best-container:after {
   content: "Best"; }
@@ -101,7 +101,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -149,7 +149,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #b9b9b9;
   border-radius: 6px;
   width: 500px;
   height: 500px;
